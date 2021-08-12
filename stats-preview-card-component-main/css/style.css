@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  background-color: #090b1a;
+  Font-size: 15px;
+  padding: 0rem;
+  margin: 0rem;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400, 700;
+  color: white;
+}
+* div .container .row .fst {
+  background-color: #1b1938;
+}
+* div .container .row .fst h2 {
+  font-weight: 700;
+  background: #1b1938;
+}
+* div .container .row .fst h2 span {
+  font-weight: 700;
+  color: #aa5cdb;
+  font-size: 1em;
+  background: #1b1938;
+}
+* div .container .row .fst p {
+  background: #1b1938;
+}
+* div .container .row .fst div.col-sm-4 {
+  background: #1b1938;
+}
+* div .container .row .fst div.col-sm-4 h3 {
+  background: #1b1938;
+}
+* div .container .row .pix {
+  height: 100%;
+}
+* div .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+* div .attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (max-width: 578px) {
+  .row {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
+  .row .fst {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
